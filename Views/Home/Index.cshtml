@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<!--Code below has been changed with big-banner and styles-->
+<div class="jumbotron  big-banner" styles="height: 500px; padding-top: 150px;">
+   
+   
+</div>
+
+<div class="row  pizza-banner" styles="height: 500px; padding-top: 150px;">
+    <div class="col-md-4">
+        
+        <h1 style="font-family:cursive; color:black; text-align: center">FRESH PIZZA!</h1>
+        <p class="lead" style="color:black; font-family: cursive; text-align: center">Fresh Pizza is a web site made for pizza!.</p>
+        <p><a href="https://da.wikipedia.org/wiki/Pizza" class="btn btn-success btn-lg" style="font-family: cursive; text-align: center">Learn more&raquo; </a></p>
+       
+        
+        <h2 style="font-family:cursive; color:black; text-align: center">Want pizza?</h2>
+        <p class="lead" style="color:black; font-family: cursive; text-align: center">
+            Go to our pizza section shown in the header or push the button below!
+        </p>
+        <p><a class="btn btn-success" @Html.ActionLink("Buy Pizza!", "Index", "Pizzas")></a></p>
+    </div>
+  
+    
+</div>
